@@ -1,5 +1,10 @@
+def start_screen():
+    print("Welcome to the hangman game!")
+
+def show_credits():
+
 def get_puzzle():
-    pass
+    return "hangman"
 
 def get_solved(puzzle, guesses):
     solved = ""
@@ -13,15 +18,46 @@ def get_solved(puzzle, guesses):
     return solved
 
 def get_guess():
-    pass
+    letter = input("Guess a letter:")
+    return letter
 
 def display_board(solved):
-    pass
+    print(solved)
 
 def show_result():
-    pass
+    print("You win!")
+
+def play_again():
+    while True:
+        decision = input("Would you like to play again? (y/n) ")
+
+        if decision == 'y' or decision == 'yes':
+            return True
+        elif decision == 'n' or decision == 'no':
+            return False
+        else:
+            print("I don't understand. Please enter 'y' or 'n'.")
     
 def play():
-    pass
+    puzzle = get_puzzle()
+    guess = ""
+    solved = get_solved(puzzle, guesses)
+    display_board(solved)
+
+    while solved != puzzle:
+        guesses += get_guess()
+        solved = get_solved(puzzle, guesses)
+        display_board(solved)
+
     
-play()
+#Game starts running here
+show_start_screen()
+
+playing = True
+
+while playing:
+    play()
+    show_result()
+    playing = play_again()
+
+show_credits
