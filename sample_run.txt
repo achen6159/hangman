@@ -1,0 +1,188 @@
+#This is a sample run of my hangman game.
+
+
+Please enter your nameannie
+Would you like to play in English or French?
+If you want to play in English say Englsih or if you want to play in French, say Frenchenglish
+______§§____________§§
+_____§__§__________§__§
+___§§____§_________§___§
+__§___§___§_______§____§
+_§____§____§_____§____§
+_§___§_§____§___§____§
+_§§§§___§___§§§§§___§
+_________§_________§___§§_§§
+________§___§§_§§___§_§§§c§§§
+_______§_____________§_§d§§§
+_______§______§______§__§§§
+_______§____§___§____§___§
+________§____§§§____§___§
+_______§§§§§_____§§§§§_§
+_§§§__§_____§§§§§_____§__§§§
+§_§_§§____§_______§__§_§§_§_§
+§____§_____§_____§__§__§____§
+_§____§____§_____§_§__§____§
+__§____§§§§_______§§§§____§
+___§____§___________§____§
+____§____§§§_____§§§____§
+_____§§§§___§§§§§___§§§§
+Let's play hangman!!annie
+You have 6 tries
+-----
+Guess a letter annie:p
+-----
+Strikes: 1
+Right guesses: 
+Wrong guesses: p
+Guess a letter annie:y
+----y
+Strikes: 1
+Right guesses: y
+Wrong guesses: p
+Guess a letter annie:t
+----y
+Strikes: 2
+Right guesses: y
+Wrong guesses: pt
+Guess a letter annie:h
+----y
+Strikes: 3
+Right guesses: y
+Wrong guesses: pth
+Guess a letter annie:u
+-u--y
+Strikes: 3
+Right guesses: yu
+Wrong guesses: pth
+Guess a letter annie:o
+-u--y
+Strikes: 4
+Right guesses: yu
+Wrong guesses: ptho
+Guess a letter annie:n
+-unny
+Strikes: 4
+Right guesses: yun
+Wrong guesses: ptho
+Guess a letter annie:b
+bunny
+Strikes: 4
+Right guesses: yunb
+Wrong guesses: ptho
+You win!!!! annie
+Would you like to play again annie? (y/n) y
+You have 6 tries
+------
+Guess a letter annie:p
+p-----
+Strikes: 0
+Right guesses: p
+Wrong guesses: 
+Guess a letter annie:y
+py----
+Strikes: 0
+Right guesses: py
+Wrong guesses: 
+Guess a letter annie:t
+pyt---
+Strikes: 0
+Right guesses: pyt
+Wrong guesses: 
+Guess a letter annie:h
+pyth--
+Strikes: 0
+Right guesses: pyth
+Wrong guesses: 
+Guess a letter annie:e
+pyth--
+Strikes: 1
+Right guesses: pyth
+Wrong guesses: e
+Guess a letter annie:r
+pyth--
+Strikes: 2
+Right guesses: pyth
+Wrong guesses: er
+Guess a letter annie:w
+pyth--
+Strikes: 3
+Right guesses: pyth
+Wrong guesses: erw
+Guess a letter annie:q
+pyth--
+Strikes: 4
+Right guesses: pyth
+Wrong guesses: erwq
+Guess a letter annie:d
+pyth--
+Strikes: 5
+Right guesses: pyth
+Wrong guesses: erwqd
+Guess a letter annie:f
+Your not good enough annie.
+Would you like to play again annie? (y/n) n
+********************************************
+**This awesome game was created by Annie****
+**This was completed on the 17 of November**
+********************************************
+
+
+______§§____________§§
+_____§__§__________§__§
+___§§____§_________§___§
+__§___§___§_______§____§
+_§____§____§_____§____§
+_§___§_§____§___§____§
+_§§§§___§___§§§§§___§
+_________§_________§___§§_§§
+________§___§§_§§___§_§§§c§§§
+_______§_____________§_§d§§§
+_______§______§______§__§§§
+_______§____§___§____§___§
+________§____§§§____§___§
+_______§§§§§_____§§§§§_§
+_§§§__§_____§§§§§_____§__§§§
+§_§_§§____§_______§__§_§§_§_§
+§____§_____§_____§__§__§____§
+_§____§____§_____§_§__§____§
+__§____§§§§_______§§§§____§
+___§____§___________§____§
+____§____§§§_____§§§____§
+_____§§§§___§§§§§___§§§§
+D'ac jouer au Hangman!!annie
+Vouz avez 6 d'essais
+-----
+Deviner une lettre annie:p
+-----
+Grèves: 1
+Suppositions droite: 
+Suppositions mal: p
+Deviner une lettre annie:y
+----y
+Grèves: 1
+Suppositions droite: y
+Suppositions mal: p
+Deviner une lettre annie:b
+b---y
+Grèves: 1
+Suppositions droite: yb
+Suppositions mal: p
+Deviner une lettre annie:du
+Je ne comprends pas annie.Entrez une lettre s’il vous plaît.
+Deviner une lettre annie:n
+b-nny
+Grèves: 1
+Suppositions droite: ybn
+Suppositions mal: p
+Deviner une lettre annie:u
+bunny
+Grèves: 1
+Suppositions droite: ybnu
+Suppositions mal: p
+Vous gagnez!!!! annie
+Vous souhaitez rejouer annie? (o/n) n
+*******************************************
+**Ce jeu génial a été créé par by Annie****
+******Cela a été fait le 17 novembre*******
+*******************************************
+
