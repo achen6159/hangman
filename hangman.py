@@ -12,6 +12,7 @@ while game_play:
     language = input("If you want to play in English say Englsih or if you want to play in French, say French")
 
     if str.lower(language) == "english":
+
         def show_start_screen():
             print("______§§____________§§")
             print("_____§__§__________§__§")
@@ -50,7 +51,7 @@ while game_play:
             print("********************************************")
             
         def get_puzzle():
-            return "hangman"
+            return "This is hangman"
 
         def get_solved(puzzle, guesses):
             solved = ""
@@ -58,6 +59,8 @@ while game_play:
             for letter in puzzle:
                 if letter in guesses:
                     solved += letter
+                elif letter == " ":
+                    solved += " "
                 else:
                     solved += "-"
 
@@ -137,7 +140,7 @@ while game_play:
 
         show_credits()
                          
-    elif str.lower(language) == "French":
+    elif str.lower(language) == "french":
         def show_start_screen():
 
             print("______§§____________§§")
@@ -177,7 +180,7 @@ while game_play:
             print("*******************************************")
             
         def get_puzzle():
-            return "hangman"
+            return "This is hangman."
 
         def get_solved(puzzle, guesses):
             solved = ""
@@ -185,6 +188,8 @@ while game_play:
             for letter in puzzle:
                 if letter in guesses:
                     solved += letter
+                elif letter == " ":
+                    solved == " "
                 else:
                     solved += "-"
 
@@ -197,31 +202,31 @@ while game_play:
                 if len(letter) == 1:
                     return letter
                 else:
-                    print("I don't understand " + str(name) + "." + "Enter a letter please.")
+                    print("Je ne comprends pas " + str(name) + "." + "Entrez une lettre s’il vous plaît.")
             
                 
         def display_board(solved, strikes, right_guesses, wrong_guesses):
             print(solved)
-            print("Strikes: " + str(strikes))
-            print("Right guesses: " + str(right_guesses))
-            print("Wrong guesses: " + str(wrong_guesses))
+            print("Grèves: " + str(strikes))
+            print("Suppositions droite: " + str(right_guesses))
+            print("Suppositions mal: " + str(wrong_guesses))
             
         def show_result(strikes):
             if strikes < limit:
-                print("You winn!!!! " + str(name))
+                print("Vous gagnez!!!! " + str(name))
             else:
-                print("Your not good enough " + str(name) + ".")
+                print("Vous n’êtes pas assez bon " + str(name) + ".")
 
         def play_again():
             while True:
-                decision = input("Would you like to play again " + str(name) + "? (y/n) ")
+                decision = input("Vous souhaitez rejouer " + str(name) + "? (o/n) ")
 
-                if decision == 'y' or decision == 'yes':
+                if decision == 'o' or decision == 'oui':
                     return True
-                elif decision == 'n' or decision == 'no':
+                elif decision == 'n' or decision == 'non':
                     return False
                 else:
-                    print("I don't understand " + str(name) + "." + "Please enter 'y' or 'n'.")
+                    print("Je ne comprends pas " + str(name) + "." + "S’il vous plaît entrer 'o' ou 'n'.")
             
         def play(strikes, limit):
             puzzle = get_puzzle()
@@ -258,7 +263,7 @@ while game_play:
             strikes = 0
             limit = 6
 
-            print("You have " + str(limit) + " tries")
+            print("Vouz avez " + str(limit) + " d'essais")
             play(strikes, limit)
             playing = play_again()
 
