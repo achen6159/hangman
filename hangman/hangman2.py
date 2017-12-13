@@ -27,6 +27,9 @@ while game_play:
         print("**This was completed on the 17 of November**")
         time.sleep(0.2)
         print("********************************************")
+        with open("Art/credits.txt" , 'r') as f:
+            credit = f.read()
+            print(credit)
         
     def get_puzzle():
         path = "Puzzles"
