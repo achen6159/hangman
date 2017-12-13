@@ -1,0 +1,21 @@
+﻿Dogs
+golden retriever
+lab
+poodle
+shepherd
+beagle
+rottweiler
+bulldog
+dane
+husky
+boxer
+pug
+pit bull
+dachshund
+border collile
+terrier
+greyhound
+saluki
+pomeranian
+basset hound
+dalmation

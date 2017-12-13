@@ -1,0 +1,31 @@
+﻿Fruits
+apple
+banana
+peach
+pear
+orange
+strawberry
+kiwi
+pineapple
+grapes
+pomegranate
+cherry
+avocado
+dragon fruit
+star fruit
+blueberry
+black berry
+apricot
+lemon
+rasberry
+watermelon
+papaya
+lime
+mango
+cantaloupe
+fig
+cranberry
+coconut
+lychee
+guava
+kumquat

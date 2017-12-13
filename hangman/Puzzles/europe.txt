@@ -1,0 +1,11 @@
+﻿European countries
+france
+england
+germany
+belgium
+spain
+portugal
+italy
+russia
+denmark
+poland

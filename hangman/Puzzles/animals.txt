@@ -1,0 +1,21 @@
+﻿Animals
+ostrich
+goose
+black bear
+barn owl
+hyena
+dolphin
+hippo
+duck
+fox
+horse
+raccoon
+chipmunk
+skunk
+peacock
+chameleon 
+zebra
+baboon
+pigeon
+salamander
+dogfish
